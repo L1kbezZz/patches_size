@@ -69,6 +69,7 @@ def get_update_size(version):
     #print("SCRATCH_ID_HD = {}".format(id_hd))
     print("Install Client from scratch size = {}mb".format(bytes_to_mb(client_content_tm_from_scratch)))
     print("Install hdcontent from scratch size = {}mb".format(bytes_to_mb(hdcontent_from_scratch)))
+    print("New commit")
 
 #responce = requests.get('http://wgus-wotkis160.kdo.space/wgus/api/v4/patches', headers={'Authorization': 'Token vl5qGk3K7K641q8PfVteE3RTyyg97YFK'})
 #print(responce)
